@@ -82,6 +82,7 @@ provisioners:
   - scripts/nodejs.sh
   - scripts/perl.sh
   - scripts/install-docker-compose.sh
+  - scripts/clojure-leiningen.sh
   execute_command: "exec su - travis '{{ .Path }}'"
 
   # system-info
